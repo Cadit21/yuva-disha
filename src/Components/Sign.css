@@ -1,0 +1,55 @@
+.form{
+    
+    width: 30%;
+    height: 420px;
+    margin-left: 300px;
+    border: 2px black solid;
+    background-color: white;
+    margin-top: 10%;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+input{
+    
+    height: 20px;
+    width: 90%;
+    
+}
+label{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.button{
+    padding-top: 20px;
+    padding: 20px;
+}
+button{
+    padding: 10px;
+}
+.message{
+    padding-left: 20px;
+    color: red;
+    
+}
+.up-cont{
+    display: flex;
+    background: linear-gradient(to bottom, #98fb98, #9dcfe0);
+    
+}
+.img{
+    margin-top: 10%;
+    
+}
+.img img{
+    width: 500px;
+    height: 420px;
+    border: 2px solid white;
+    
+}
+
+  
+ 

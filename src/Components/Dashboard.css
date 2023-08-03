@@ -1,0 +1,121 @@
+.block{
+    overflow: auto;
+    width: 100%;
+    height: 200px;
+    background-color:rgba(30,49,66,0.85);
+    text-align: center;
+    color: white;
+}
+.block h1{
+    position: relative;
+    top: 20px;
+}
+.side-bar{
+    width: 260px;
+    height: 100vh;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.08);
+    float: left;
+    z-index: 1;
+}
+.main-content{
+    float: left;
+    width: 80%;
+}
+.side-con{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+li{
+    padding: 20px;
+}
+.upper{
+    padding-bottom: 100px;
+    padding-top: 20px;
+    border: 2px black solid;
+    border-radius: 20px;
+
+}
+.section1{
+
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.08);
+    position: relative;
+    left: 9px;
+    
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+   position: static;
+   left: 10px;
+}
+.group-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.noti{
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.08);
+    position: relative;
+    left: 9px;
+   width: 100%;
+    top: 10px;
+   
+
+    
+}
+.up2 h3{
+    position: relative;
+    left: 10px;
+}
+.noti p{
+    position: relative;
+    left: 10px;
+}
+.noti hr{
+    width: 80%;
+}
+.up2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.up2 h4{
+    color: white;
+    font-weight: 300;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
+    border: rgb(52, 213, 52) 2px solid;
+    background-color:rgb(58, 212, 58) ;
+    padding: 5px;
+}
+.col-1{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.info{
+    width: 30%;
+    display: flex;
+    margin: 10px;
+    padding: 3px;
+    border: 2px solid black;
+    background-color: rgb(84, 243, 84);
+    
+    
+}
+.text h4,p{
+    padding: 0;
+    margin: 0;
+}
+.de{
+    margin: 6px;
+    
+}

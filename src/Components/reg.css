@@ -1,0 +1,101 @@
+.container-1 {
+  background: linear-gradient(to right, #9dcfe0, #98fb98);
+  margin: 0;
+  overflow: auto;
+}
+
+.container{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+   
+}
+.con{
+    padding: 20px;
+}
+
+.button2 button {
+   width: 49%;
+  
+   
+}
+.button2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+    
+  
+  
+  /* Form field label styles */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Form input styles */
+  input,
+  select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Form select styles */
+  select {
+    cursor: pointer;
+  }
+  
+  /* Form submit button styles */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Form submit button hover effect */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Adding some spacing between form elements 
+  
+  /* Flexbox styles */
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .form-group input,
+  .form-group select {
+    flex: 1;
+    margin-right: 10px;
+    min-width: 140px; 
+  }
+  .form-group input:not(:last-child),
+.form-group select:not(:last-child) {
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+  

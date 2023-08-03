@@ -1,0 +1,42 @@
+li{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    
+    
+}
+
+
+.left{
+    display: flex;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+.links{
+   display: inline-flex;
+   padding-top: 30px;
+}
+.right{
+    display: inline-flex;
+    padding: 40px;
+    cursor: pointer;
+    padding-top: 50px
+   
+}
+img{
+    width: 100px;
+    height: 100px;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
